@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'maven'  // Configure in Jenkins Global Tool Configuration
+        jdk 'java home'         // Configure in Jenkins Global Tool Configuration
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/bhargavaputti/Daily-Tasks.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'cd 15-10-2025/Oct15-Jenkins && mvn clean compile'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                bat 'cd 15-10-2025/Oct15-Jenkins && mvn test'
+            }
+        }
+
+    }
+
+    post {
+        success {
+            echo 'Build and deployment succeeded!'
+        }
+        failure {
+            echo 'Build or deployment failed!'
+        }
+    }
+}
+
