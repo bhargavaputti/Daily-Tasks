@@ -5,7 +5,7 @@ public class TestApplication {
 		
 	
 	
-	System.out.println("Hello from my App Github");
+	System.out.println("Hello from Github");
 	}
 	public int add(int a, int b) {
 		return a+b;
@@ -14,3 +14,4 @@ public class TestApplication {
 
 
 }
+
