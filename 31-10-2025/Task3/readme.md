@@ -51,9 +51,8 @@ Permissions required:
 - Write to DynamoDB  
 - Basic Lambda execution permissions (CloudWatch logs)
 
-<p align="center">
-  <img width="700" src="https://github.com/user-attachments/assets/acb37de5-c07c-4937-aeba-d3e14427ff6c" alt="AWS Architecture Overview">
-</p>
+<img width="1325" height="537" alt="image" src="https://github.com/user-attachments/assets/056d0c7a-86a6-48d3-a385-43c919c0a826" />
+
 
 ---
 
