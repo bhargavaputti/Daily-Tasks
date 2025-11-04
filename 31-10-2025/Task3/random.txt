@@ -1,7 +1,0 @@
-Hello world
-
-This is from s3 bucket
-
-Hello dynamo
-
-Hello lambda
