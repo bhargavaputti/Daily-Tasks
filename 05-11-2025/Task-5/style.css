@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #2e86de;
+  color: white;
+  padding: 15px 0;
+}
+
+header .logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #d6eaf8;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #2e86de;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #1b4f72;
+}
+
+.about {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.classes {
+  background: #f2f3f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.classes h2 {
+  margin-bottom: 40px;
+}
+
+.class-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.class-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.class-card h3 {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #2e86de;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
